@@ -13,3 +13,37 @@ Dans le cas d’expérience en laboratoire, la description du montage et positio
 Cette section comprend simplement l’énumération de tous les instruments de mesure ainsi que tout autre matériel jugé pertinent.
 
 NAR2000-N02, 45A-AA1-DAAA-1BA	Composant pneumatique pour la gestion du débit d’air.	NAR2000-N02 Datasheet
+2.3	Théorie ----
+Les capteurs utilisés incluent :
+•	Capteurs photoélectriques (pour détecter la présence des bouteilles),
+•	Capteurs capacitifs (pour mesurer le niveau de remplissage),
+•	Capteurs optiques (pour vérifier la présence de l’étiquette),
+•	Capteurs inductifs (pour déterminer le type de bouchon).
+.
+Dans le cas d’expérience en laboratoire, la description du montage et position des points de mesure. Dans le cas d’utilisation d’outils d’aide à la conception sur ordinateur, la description des entrées (e.g. fichiers sources), la procédure du travail et conditions d’essai.
+2.4	Matériel utilisé
+Cette section comprend simplement l’énumération de tous les instruments de mesure ainsi que tout autre matériel jugé pertinent.
+Composant	Description	Référence/Datasheet
+Capteur XUBO APSN M12	Capteur photoélectrique à détection diffuse.	XUBO APSN M12 Datasheet
+Capteur XT1M30PA372	Capteur capacitif pour détection du niveau de remplissage.	XT1M30PA372 Datasheet
+Capteur E35-C12	Capteur optique à fourche pour détection de l’étiquette.	E35-C12 Datasheet
+Capteur IG54053008BPKG	Capteur inductif pour détection du bouchon.	IG54053008BPKG Datasheet
+OMRON E6B2-CWZ5B	Encodeur rotatif pour suivi du déplacement du convoyeur.	E6B2-CWZ5B Datasheet
+Vérin pneumatique	Pour l’éjection des bouteilles non conformes.	Vérin Datasheet
+Distributeur pneumatique	Gestion de l’air pour actionner le vérin.	Distributeur Datasheet
+Convoyeur	Pour transporter les bouteilles.	Convoyeur Datasheet
+Borniers	Pour la connexion des capteurs et autres composants.	Borniers Datasheet
+Disjoncteur Multi 9 C60N 3A-type B	Protection du circuit électrique.	Disjoncteur C60N Datasheet
+Fusibles 10A et 5A	Protection des circuits.	Fusibles Datasheet
+Relais MCR	Pour gérer les signaux de contrôle.	Relais MCR Datasheet
+Source d’alimentation continue Telemecanique ABL7RP2403	Pour alimenter le système.	ABL7RP2403 Datasheet
+PointIO Allen-Bradley 1734-AENT	Module de communication pour les entrées/sorties.	1734-AENT Datasheet
+Relais 2961105	Pour l'activation/désactivation des signaux.	Relais 2961105 Datasheet
+Drive KBMM SI-6	Contrôle de la vitesse du moteur du convoyeur.	KBMM SI-6 Datasheet
+Routeur TE100-SSS5/A5	Pour la connectivité réseau.	TE100-SSS5/A5 Datasheet
+Sectionneur OT16ET3	Sécurité électrique.	OT16ET3 Datasheet
+Lampe MCR et Lampe d’alimentation	Indicateurs visuels pour le contrôle.	Lampe MCR Datasheet
+Bouton MCR et Bouton d’arrêt d’urgence	Commandes manuelles de sécurité.	Bouton MCR Datasheet
+NAR2000-N02, 45A-AA1-DAAA-1BA	Composant pneumatique pour la gestion du débit d’air.	NAR2000-N02 Datasheet
+
+
