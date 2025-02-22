@@ -1,0 +1,15 @@
+Le tri des bouteilles repose sur des critères bien définis dans des recettes préétablies, qui déterminent les seuils de détection et les actions à entreprendre selon les spécifications de production. 
+Ces recettes permettent d'ajuster dynamiquement le fonctionnement du système en fonction des exigences de production, garantissant ainsi une plus grande flexibilité et une meilleure qualité de tri.
+2.3	Théorie ----
+L'automatisation d'un processus industriel repose sur des capteurs qui détectent des variables spécifiques du produit (ici, des bouteilles). Ces capteurs envoient des signaux à un automate programmable (API), qui prend des décisions basées sur des conditions préétablies, telles que le type de bouchon, l’étiquette, et le niveau de remplissage des bouteilles. En réponse, le système peut commander l’actionneur pour éjecter une bouteille non conforme.
+Les capteurs utilisés incluent :
+•	Capteurs photoélectriques (pour détecter la présence des bouteilles),
+•	Capteurs capacitifs (pour mesurer le niveau de remplissage),
+•	Capteurs optiques (pour vérifier la présence de l’étiquette),
+•	Capteurs inductifs (pour déterminer le type de bouchon).
+.
+Dans le cas d’expérience en laboratoire, la description du montage et position des points de mesure. Dans le cas d’utilisation d’outils d’aide à la conception sur ordinateur, la description des entrées (e.g. fichiers sources), la procédure du travail et conditions d’essai.
+2.4	Matériel utilisé
+Cette section comprend simplement l’énumération de tous les instruments de mesure ainsi que tout autre matériel jugé pertinent.
+
+NAR2000-N02, 45A-AA1-DAAA-1BA	Composant pneumatique pour la gestion du débit d’air.	NAR2000-N02 Datasheet
